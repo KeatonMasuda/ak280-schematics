@@ -7,23 +7,24 @@
 ## プロジェクトの目的
 このプロジェクトは、あくまで個人の趣味として解析を行ったものです。特定の目的や意図はありません。
 
-## ディレクトリ構成
+## ディレクトリ構成 (Directory Structure)
 
+```text
 ak280-schematics/
-├── README.md            (英語版README)
-├── README.ja.md         (このファイル)
-├── LICENSE              (プロジェクトのライセンス)
-├── hardware/            (KiCad 設計データ一式)
-│   ├── AK-280.kicad_pro
-│   └── AK-280.kicad_sch
-└── images/              (解析に使用した画像データ)
-    ├── fig01-topside-with-refno.png       (部品面の回路番号付き写真：閲覧用・レイヤ統合済)
-    ├── fig01-topside-with-refno.xcf       (部品面の回路番号付き写真：GIMP編集用・レイヤ保持)
-    ├── fig02-bottomside-with-refno-org.png (半田面の回路番号付き写真・オリジナル：閲覧用・レイヤ統合済)
-    ├── fig02-bottomside-with-refno-org.xcf (半田面の回路番号付き写真・オリジナル：GIMP編集用・レイヤ保持)
-    ├── fig03-bottomside-with-refno-mirror.png (半田面の回路番号付き写真・反転：閲覧用・レイヤ統合済)
-    ├── fig03-bottomside-with-refno-mirror.xcf (半田面の回路番号付き写真・反転：GIMP編集用・レイヤ保持)
-    └── fig04-ai-generated-reference.png   (AIで生成し目視確認したパターン図)
+├── hardware/
+├── images/
+├── LICENSE
+├── README.ja.md
+└── README.md
+```
+
+## 各ファイルの説明 (File Descriptions)
+
+* **hardware/**: KiCadの回路図データ一式(回路図ファイルや設計データ)が入っています。
+* **images/**: 回路図の確認用画像(キャプチャ画像や関連資料)が格納されています。
+* **LICENSE**: ライセンスに関する情報を記載しています。
+* **README.ja.md**: このプロジェクトについての日本語での詳細な説明です(本ファイル)。
+* **README.md**: このプロジェクトについての英語での詳細な説明です。
 
 ## 使い方
 1. このリポジトリをローカル環境にクローン (ダウンロード) します。

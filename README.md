@@ -9,21 +9,22 @@ This project is purely a personal hobby. There is no specific purpose or goal ot
 
 ## Directory Structure
 
+```text
 ak280-schematics/
-├── README.md            (This file)
-├── README.ja.md         (Japanese version)
-├── LICENSE              (Project License)
-├── hardware/            (KiCad design files)
-│   ├── AK-280.kicad_pro
-│   └── AK-280.kicad_sch
-└── images/              (Reference images used for analysis)
-    ├── fig01-topside-with-refno.png       (Top side photo with component labels: flattened for viewing)
-    ├── fig01-topside-with-refno.xcf       (Top side photo with component labels: GIMP source file with layers)
-    ├── fig02-bottomside-with-refno-org.png (Bottom side photo with component labels, original view: flattened for viewing)
-    ├── fig02-bottomside-with-refno-org.xcf (Bottom side photo with component labels, original view: GIMP source file with layers)
-    ├── fig03-bottomside-with-refno-mirror.png (Bottom side photo with component labels, mirrored view: flattened for viewing)
-    ├── fig03-bottomside-with-refno-mirror.xcf (Bottom side photo with component labels, mirrored view: GIMP source file with layers)
-    └── fig04-ai-generated-reference.png   (AI-generated and visually verified pattern diagram)
+├── hardware/
+├── images/
+├── LICENSE
+├── README.ja.md
+└── README.md
+```
+
+## File Descriptions
+
+* **hardware/**: Contains all KiCad schematic files and design data.
+* **images/**: Contains screenshots and images of the circuit schematics for quick preview.
+* **LICENSE**: The license terms and conditions for using these project files.
+* **README.ja.md**: Detailed project description written in Japanese.
+* **README.md**: Detailed project description written in English (this file).
 
 ## How to Use
 1. Clone this repository to your local machine.
