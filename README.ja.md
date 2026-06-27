@@ -17,11 +17,11 @@ ak280-schematics/
 ├── images/
 │   ├── ak280-schematic.pdf
 │   ├── fig01-topside-with-refno.png
-│   ├── fig01-topside-with-refno.xcf
+│   ├── fig01-topside-with-refno.zip
 │   ├── fig02-bottomside-with-refno-org.png
-│   ├── fig02-bottomside-with-refno-org.xcf
+│   ├── fig02-bottomside-with-refno-org.zip
 │   ├── fig03-bottomside-with-refno-mirror.png
-│   ├── fig03-bottomside-with-refno-mirror.xcf
+│   ├── fig03-bottomside-with-refno-mirror.zip
 │   └── fig04-ai-generated-reference.png
 ├── LICENSE
 ├── README.ja.md
@@ -33,12 +33,12 @@ ak280-schematics/
 * **hardware/**: KiCadの回路図データ一式 (回路図ファイルや設計データ) が入っています。
 * **images/**: 以下の回路図および関連資料が格納されています。
     * **ak280-schematic.pdf**: 回路図 (PDFファイル)
-    * **fig01-topside-with-refno.png**: 部品面の回路番号付き写真 (閲覧用・レイヤ統合済)
-    * **fig01-topside-with-refno.xcf**: 部品面の回路番号付き写真 (GIMP編集用・レイヤ保持・圧縮)
-    * **fig02-bottomside-with-refno-org.png**: ハンダ面の回路番号付き写真・オリジナル (閲覧用・レイヤ統合済)
-    * **fig02-bottomside-with-refno-org.xcf**: ハンダ面の回路番号付き写真・オリジナル (GIMP編集用・レイヤ保持・圧縮)
-    * **fig03-bottomside-with-refno-mirror.png**: ハンダ面の回路番号付き写真・反転 (閲覧用・レイヤ統合済)
-    * **fig03-bottomside-with-refno-mirror.xcf**: ハンダ面の回路番号付き写真・反転 (GIMP編集用・レイヤ保持・圧縮)
+    * **fig01-topside-with-refno.png**: 部品面の回路番号付き写真 (閲覧用)
+    * **fig01-topside-with-refno.zip**: 部品面の回路番号付き写真 (GIMP編集用データ)
+    * **fig02-bottomside-with-refno-org.png**: ハンダ面の回路番号付き写真・オリジナル (閲覧用)
+    * **fig02-bottomside-with-refno-org.zip**: ハンダ面の回路番号付き写真・オリジナル (GIMP編集用データ)
+    * **fig03-bottomside-with-refno-mirror.png**: ハンダ面の回路番号付き写真・反転 (閲覧用)
+    * **fig03-bottomside-with-refno-mirror.zip**: ハンダ面の回路番号付き写真・反転 (GIMP編集用データ)
     * **fig04-ai-generated-reference.png**: AIで生成し目視確認したパターン図
 * **LICENSE**: ライセンスに関する情報を記載しています。
 * **README.ja.md**: このプロジェクトについての日本語での詳細な説明です (本ファイル)。
@@ -48,7 +48,6 @@ ak280-schematics/
 1. このリポジトリをローカル環境にクローン (ダウンロード) します。
 2. KiCad (v7.0以降を推奨) を起動し、`hardware/AK-280.kicad_pro` を開きます。
 3. 回路図エディタを開くことで、作成された回路図を閲覧・編集できます。
-4. `images/` フォルダ内にある `.xcf` ファイルの閲覧・編集には、GIMPが必要です。
 
 ## 免責事項
 本リポジトリの回路図は、実物基板の目視確認およびAI生成のパターン図 (`fig04-ai-generated-reference.png`) を参考にして作成されたものです。正確性には万全を期していますが、ネットリストの完全性を100%保証するものではありません。本データの利用によって生じた、機器の破損、事故、予期せぬ不具合、その他いかなる損害や不利益についても、作者は一切の責任を負いません。各自の責任において利用してください。
