@@ -5,13 +5,24 @@
 This repository contains the schematic for the AK-280 audio amplifier purchased from Amazon, created by tracing the printed patterns and components. The schematic is created using KiCad.
 
 
-[![Schematic](images/ak280-schematic.png)](images/ak280-schematic.pdf)
-*Figure 1: AK-280 Schematic(click to PDF)*
 
-|||
-| :--- | :--- |
-| ![Detail 1](images/fig02-bottomside-with-refno-org.png) <br> *Figure 2: Bottom-side view (Original)* | ![Detail 2](images/fig03-bottomside-with-refno-mirror.png) <br> *Figure 3: Bottom-side view (Mirrored)* |
-| ![Detail 3](images/fig04-ai-generated-reference.png) <br> *Figure 4: AI-generated pattern* | ![Detail 4](images/fig01-topside-with-refno.png) <br> *Figure 5: (Placeholder)* |
+<p align="center">
+  <img src="images/img20260628_14034673.jpg" width="100%"><br>
+  Figure 1: Main View
+</p>
+
+<table style="width: 100%; border: none;">
+  <tr>
+    <td style="width: 50%; text-align: center; border: none;">
+      <img src="images/fig02-bottomside-with-refno-org.png"><br>
+      Figure 2: Bottom-side view (Original)
+    </td>
+    <td style="width: 50%; text-align: center; border: none;">
+      <img src="images/fig03-bottomside-with-refno-mirror.png"><br>
+      Figure 3: Bottom-side view (Mirrored)
+    </td>
+  </tr>
+</table>
 
 ## Project Objective
 This project was created for personal hobby purposes only. There is no specific intended purpose or goal.
