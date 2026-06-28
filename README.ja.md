@@ -25,17 +25,17 @@
   <tr>
     <td style="width: 50%; text-align: center; border: none;">
       <img src="images/fig01-topside-with-refno.png"><br>
-      図 4: PCB部品面（参照番号付き）
+      図 4: PCB部品面(参照番号付き)
     </td>
     <td style="width: 50%; text-align: center; border: none;">
       <img src="images/fig02-bottomside-with-refno-org.png"><br>
-      図 5: PCBハンダ面（参照番号付き）
+      図 5: PCBハンダ面(参照番号付き)
     </td>
   </tr>
   <tr>
     <td style="width: 50%; text-align: center; border: none;">
       <img src="images/fig03-bottomside-with-refno-mirror.png"><br>
-      図 6: PCBハンダ面（参照番号付き、ミラー反転）
+      図 6: PCBハンダ面(参照番号付き、ミラー反転)
     </td>
     <td style="width: 50%; text-align: center; border: none;">
       <img src="images/fig04-ai-generated-reference.png"><br>
@@ -71,7 +71,7 @@
 ## ファイルの説明
 
 * **hardware/**: KiCadの全回路図ファイルおよび設計データ。
-* **images/**: 以下の回路図および関連資料：
+* **images/**: 以下の回路図および関連資料:
     * **ak280-schematic.pdf**: 回路図 (PDFファイル)
     * **ak280-photo.png**: AK-280のクローズアップ写真
     * **ak280-system-photo.png**: AK-280 SPシステム写真
@@ -83,8 +83,8 @@
     * **fig03-bottomside-with-refno-mirror.zip**: 回路参照番号付きハンダ面写真 (ミラー反転、GIMPソースデータ)
     * **fig04-ai-generated-reference.png**: AIによって生成され、目視確認されたパターン図。
 * **LICENSE**: プロジェクトのライセンス情報。
-* **README.ja.md**: 日本語の詳細なプロジェクト説明。
-* **README.md**: 英語の詳細なプロジェクト説明（本ファイル）。
+* **README.ja.md**: 日本語の詳細なプロジェクト説明(本ファイル)。
+* **README.md**: 英語の詳細なプロジェクト説明。
 
 ## 環境
 * **KiCad**: 10.0.4
@@ -98,7 +98,7 @@
 * **部品番号を編集する**: `images/fig01-topside-with-refno.zip`、`images/fig02-bottomside-with-refno-org.zip`、または `images/fig03-bottomside-with-refno-mirror.zip` を展開し、GIMPで開いてください。
 
 ## 免責事項
-このリポジトリの回路図は、実際の基板の目視検査と、AI生成されたパターン図（`fig04-ai-generated-reference.png`）に基づいて作成されています。正確性を確保するためにあらゆる努力が払われていますが、ネットリストの完全性は100%保証されていません。著者は、このデータを使用したことによって生じた損害、事故、予期せぬ誤動作、その他の損失について、一切の責任を負いません。自己責任で使用してください。
+このリポジトリの回路図は、実際の基板の目視検査と、AI生成されたパターン図(`fig04-ai-generated-reference.png`)に基づいて作成されています。正確性を確保するためにあらゆる努力が払われていますが、ネットリストの完全性は100%保証されていません。著者は、このデータを使用したことによって生じた損害、事故、予期せぬ誤動作、その他の損失について、一切の責任を負いません。自己責任で使用してください。
 
 ## 謝辞
 * このプロジェクトで使用されているTDA7377 KiCadシンボルは、Snapmagic (https://www.snapmagic.com/) によって提供されています。
