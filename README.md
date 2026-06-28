@@ -98,7 +98,7 @@ This project was created for personal hobby purposes only. There is no specific 
 * **Edit Component Reference Numbers**: Extract `images/fig01-topside-with-refno.zip`, `images/fig02-bottomside-with-refno-org.zip`, or `images/fig03-bottomside-with-refno-mirror.zip` and open them with GIMP.
 
 ## Disclaimer
-The schematics in this repository were created based on visual inspection of the actual board and AI-generated pattern diagrams (`fig04-ai-generated-reference.png`). While every effort has been made to ensure accuracy, the integrity of the netlist is not 100% guaranteed. The author assumes no responsibility or liability for any damage, accidents, unforeseen malfunctions, or other losses resulting from the use of this data. Please use at your own risk.
+The schematics in this repository were created based on visual inspection of the actual board . While every effort has been made to ensure accuracy, the integrity of the netlist is not 100% guaranteed. The author assumes no responsibility or liability for any damage, accidents, unforeseen malfunctions, or other losses resulting from the use of this data. Please use at your own risk.
 
 ## Acknowledgments
 * The TDA7377 KiCad symbol used in this project is provided by Snapmagic (https://www.snapmagic.com/)
