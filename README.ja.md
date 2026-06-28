@@ -74,6 +74,7 @@
 * **hardware/**: KiCadの全回路図ファイルおよび設計データ。
 * **images/**: 以下の回路図および関連資料:
     * **ak280-schematic.pdf**: 回路図 (PDFファイル)
+    * **ak280-schematic.png**: 回路図 (PNGファイル)
     * **ak280-photo.png**: AK-280のクローズアップ写真
     * **ak280-system-photo.png**: AK-280 SPシステム写真
     * **fig01-topside-with-refno.png**: 回路参照番号付き部品面写真 (閲覧用)
