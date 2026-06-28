@@ -36,12 +36,12 @@ This repository contains the schematic for the AK-280 audio amplifier purchased 
   </tr>
   <tr>
     <td style="width: 50%; text-align: center; border: none;">
-      <img src="images/fig01-topside-with-refno.png"><br>
-      Figure 3: PCB Component side with refno
+      <img src="images/fig03-bottomside-with-refno-mirror.png"><br>
+      Figure 5: PCB Solder side with refno(mirror)
     </td>
     <td style="width: 50%; text-align: center; border: none;">
-      <img src="images/fig02-bottomside-with-refno-org.png"><br>
-      Figure 4: PCB Solder side with refno
+      <img src="images/fig04-ai-generated-reference.png"><br>
+      Figure 6: AI generated reference
     </td>
   </tr>
 </table>
