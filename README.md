@@ -86,6 +86,10 @@ This project was created for personal hobby purposes only. There is no specific 
 * **README.ja.md**: Detailed project description in Japanese.
 * **README.md**: Detailed project description in English (this file).
 
+## Environment
+* **KiCad**: 10.0.4
+* **GIMP**: 3.2.4
+
 ## Usage
 
 * **View Schematic**: Refer to `images/ak280-schematic.pdf`.
