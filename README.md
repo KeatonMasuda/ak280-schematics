@@ -4,10 +4,6 @@
 
 This repository contains the schematic for the AK-280 audio amplifier purchased from Amazon, created by tracing the printed patterns and components. The schematic is created using KiCad.
 
-## Visual Reference
-
-## Visual Reference
-
 ### Main View
 ![Main View](images/fig01-topside-with-refno.png)
 *Figure 1: Full-view of the top side with reference numbers*
