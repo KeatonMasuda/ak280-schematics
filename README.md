@@ -6,11 +6,17 @@ This repository contains the schematic for the AK-280 audio amplifier purchased 
 
 ## Visual Reference
 
-<figure>
-  <img src="images/fig01-topside-with-refno.png" alt="Top-side view">
-  <figcaption>Figure 1: Top-side photo with reference numbers</figcaption>
-</figure>
+## Visual Reference
 
+### Main View
+![Main View](images/fig01-topside-with-refno.png)
+*Figure 1: Full-view of the top side with reference numbers*
+
+### Detailed Views
+| &nbsp; | &nbsp; |
+| :--- | :--- |
+| ![Detail 1](images/fig02-bottomside-with-refno-org.png) <br> *Figure 2: Bottom-side view (Original)* | ![Detail 2](images/fig03-bottomside-with-refno-mirror.png) <br> *Figure 3: Bottom-side view (Mirrored)* |
+| ![Detail 3](images/fig04-ai-generated-reference.png) <br> *Figure 4: AI-generated pattern* | ![Detail 4](images/fig01-topside-with-refno.png) <br> *Figure 5: (Placeholder)* |
 
 ## Project Objective
 This project was created for personal hobby purposes only. There is no specific intended purpose or goal.
