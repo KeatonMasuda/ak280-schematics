@@ -8,7 +8,7 @@ This repository contains the schematic for the AK-280 audio amplifier purchased 
   <a href="images/ak280-schematic.pdf">
     <img src="images/ak280-schematic.png" width="100%">
   </a><br>
-  Figure 1: AK-280 schematic
+  Figure 1: AK-280 schematic(clock to PDF)
 </p>
 
 <table style="width: 100%; border: none;">
