@@ -54,8 +54,9 @@
     │   ├── AK-280.kicad_pro
     │   └── AK-280.kicad_sch
     ├── images/
-    │   ├── ak280-schematic.pdf
     │   ├── ak280-photo.png
+    │   ├── ak280-schematic.pdf
+    │   ├── ak280-schematic.png
     │   ├── ak280-system-photo.png
     │   ├── fig01-topside-with-refno.png
     │   ├── fig01-topside-with-refno.zip
