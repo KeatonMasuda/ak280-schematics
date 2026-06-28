@@ -74,6 +74,7 @@ This project was created for personal hobby purposes only. There is no specific 
 * **hardware/**: Contains all KiCad schematic files and design data.
 * **images/**: Contains the following circuit diagrams and related reference materials:
     * **ak280-schematic.pdf**: Circuit schematic (PDF file)
+    * **ak280-schematic.png**: Circuit schematic (PNG file)
     * **ak280-photo.png**: Close-up photo of AK-280
     * **ak280-system-photo.png**: AK-280 SP system photo
     * **fig01-topside-with-refno.png**: Top-side photo with circuit reference numbers (For viewing)
