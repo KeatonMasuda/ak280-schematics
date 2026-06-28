@@ -1,8 +1,13 @@
 # ak280-schematics
 
 [Japanese README is here](README.ja.md)
-[![Schematic Preview](images/ak280-schematic.png)](images/ak280-schematic.pdf)
-| Left Image | Right Image |
+
+| Image |
+| :---: |
+|[![Schematic Preview](images/ak280-schematic.png)](images/ak280-schematic.pdf)|
+| *Schmatic Preview* |
+
+
 | :---: | :---: |
 | <img src="images/fig01-topside-with-refno.png" style="width: 100%;"> | <img src="images/fig02-bottomside-with-refno-org.png" style="width: 100%;"> |
 
