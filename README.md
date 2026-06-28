@@ -4,13 +4,11 @@
 
 This repository contains the schematic for the AK-280 audio amplifier purchased from Amazon, created by tracing the printed patterns and components. The schematic is created using KiCad.
 
-
-
 <p align="center">
   <a href="images/ak280-schematic.pdf">
     <img src="images/ak280-schematic.png" width="100%">
   </a><br>
-  Figure 1: AK-280 schematics
+  Figure 1: AK-280 schematic
 </p>
 
 <table style="width: 100%; border: none;">
@@ -27,21 +25,21 @@ This repository contains the schematic for the AK-280 audio amplifier purchased 
   <tr>
     <td style="width: 50%; text-align: center; border: none;">
       <img src="images/fig01-topside-with-refno.png"><br>
-      Figure 3: PCB Component side with refno
+      Figure 4: PCB Component side with reference numbers
     </td>
     <td style="width: 50%; text-align: center; border: none;">
       <img src="images/fig02-bottomside-with-refno-org.png"><br>
-      Figure 4: PCB Solder side with refno
+      Figure 5: PCB Solder side with reference numbers
     </td>
   </tr>
   <tr>
     <td style="width: 50%; text-align: center; border: none;">
       <img src="images/fig03-bottomside-with-refno-mirror.png"><br>
-      Figure 5: PCB Solder side with refno(mirror)
+      Figure 6: PCB Solder side with reference numbers (mirrored)
     </td>
     <td style="width: 50%; text-align: center; border: none;">
       <img src="images/fig04-ai-generated-reference.png"><br>
-      Figure 6: AI generated reference
+      Figure 7: AI-generated reference
     </td>
   </tr>
 </table>
@@ -51,33 +49,32 @@ This project was created for personal hobby purposes only. There is no specific 
 
 ## Directory Structure
 
-```text
-ak280-schematics/
-├── hardware/
-│   ├── AK-280.kicad_pro
-│   └── AK-280.kicad_sch
-├── images/
-│   ├── ak280-photo.png
-│   ├── ak280-schematic.pdf
-│   ├── ak280-schematic.png
-│   ├── ak280-system-photo.png
-│   ├── fig01-topside-with-refno.png
-│   ├── fig01-topside-with-refno.zip
-│   ├── fig02-bottomside-with-refno-org.png
-│   ├── fig02-bottomside-with-refno-org.zip
-│   ├── fig03-bottomside-with-refno-mirror.png
-│   ├── fig03-bottomside-with-refno-mirror.zip
-│   └── fig04-ai-generated-reference.png
-├── LICENSE
-├── README.ja.md
-└── README.md
-```
+    ak280-schematics/
+    ├── hardware/
+    │   ├── AK-280.kicad_pro
+    │   └── AK-280.kicad_sch
+    ├── images/
+    │   ├── ak280-schematic.pdf
+    │   ├── ak280-photo.png
+    │   ├── ak280-system-photo.png
+    │   ├── fig01-topside-with-refno.png
+    │   ├── fig01-topside-with-refno.zip
+    │   ├── fig02-bottomside-with-refno-org.png
+    │   ├── fig02-bottomside-with-refno-org.zip
+    │   ├── fig03-bottomside-with-refno-mirror.png
+    │   ├── fig03-bottomside-with-refno-mirror.zip
+    │   └── fig04-ai-generated-reference.png
+    ├── LICENSE
+    ├── README.ja.md
+    └── README.md
 
 ## File Descriptions
 
 * **hardware/**: Contains all KiCad schematic files and design data.
 * **images/**: Contains the following circuit diagrams and related reference materials:
     * **ak280-schematic.pdf**: Circuit schematic (PDF file)
+    * **ak280-photo.png**: Close-up photo of AK-280
+    * **ak280-system-photo.png**: AK-280 SP system photo
     * **fig01-topside-with-refno.png**: Top-side photo with circuit reference numbers (For viewing)
     * **fig01-topside-with-refno.zip**: Top-side photo with circuit reference numbers (GIMP source data)
     * **fig02-bottomside-with-refno-org.png**: Bottom-side photo with circuit reference numbers (Original, for viewing)
@@ -90,9 +87,11 @@ ak280-schematics/
 * **README.md**: Detailed project description in English (this file).
 
 ## Usage
-1. Clone (download) this repository to your local environment.
-2. Launch KiCad (v7.0 or later recommended) and open `hardware/AK-280.kicad_pro`.
-3. Open the schematic editor to view or edit the created circuit diagram.
+
+* **View Schematic**: Refer to `images/ak280-schematic.pdf`.
+* **View Component Reference Numbers**: Refer to `images/fig01-topside-with-refno.png` and `images/fig02-bottomside-with-refno-org.png`.
+* **Edit Schematic**: Launch KiCad and open `hardware/AK-280.kicad_pro`.
+* **Edit Component Reference Numbers**: Extract `images/fig01-topside-with-refno.zip`, `images/fig02-bottomside-with-refno-org.zip`, or `images/fig03-bottomside-with-refno-mirror.zip` and open them with GIMP.
 
 ## Disclaimer
 The schematics in this repository were created based on visual inspection of the actual board and AI-generated pattern diagrams (`fig04-ai-generated-reference.png`). While every effort has been made to ensure accuracy, the integrity of the netlist is not 100% guaranteed. The author assumes no responsibility or liability for any damage, accidents, unforeseen malfunctions, or other losses resulting from the use of this data. Please use at your own risk.
