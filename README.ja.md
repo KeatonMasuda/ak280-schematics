@@ -1,6 +1,7 @@
 # ak280-schematics (日本語版)
 
 [English README is here](README.md)
+[![Schematic Preview](images/ak280-schematic.png)](images/ak280-schematic.pdf)
 
 このリポジトリには、Amazonで購入したオーディオ・アンプ「AK-280」のプリント・パターンと実装部品から作成した回路図を格納しています。回路図はKiCadで作成しています。
 
