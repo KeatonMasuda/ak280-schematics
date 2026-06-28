@@ -8,18 +8,28 @@ This repository contains the schematic for the AK-280 audio amplifier purchased 
 
 <p align="center">
   <img src="images/ak280-schematic.png" width="100%"><br>
-  Figure 1: Main View
+  Figure 1: AK-280 schematics
 </p>
 
 <table style="width: 100%; border: none;">
   <tr>
     <td style="width: 50%; text-align: center; border: none;">
       <img src="images/ak280-photo.png"><br>
-      Figure 2: Bottom-side view (Original)
+      Figure 2: AK-280 close-up
     </td>
     <td style="width: 50%; text-align: center; border: none;">
       <img src="images/ak280-system-photo.png"><br>
-      Figure 3: Bottom-side view (Mirrored)
+      Figure 3: AK-280 SP system
+    </td>
+  </tr>
+  <tr>
+    <td style="width: 50%; text-align: center; border: none;">
+      <img src="images/ak280-photo.png"><br>
+      Figure 2: AK-280 close-up
+    </td>
+    <td style="width: 50%; text-align: center; border: none;">
+      <img src="images/ak280-system-photo.png"><br>
+      Figure 3: AK-280 SP system
     </td>
   </tr>
 </table>
