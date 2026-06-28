@@ -1,17 +1,12 @@
 # ak280-schematics
 
 [Japanese README is here](README.ja.md)
+## Visual Reference
 
-| Image |
-| :---: |
-|[![Schematic Preview](images/ak280-schematic.png)](images/ak280-schematic.pdf)|
-| *Schmatic Preview* |
-
-
-| :---: | :---: |
-| <img src="images/fig01-topside-with-refno.png" style="width: 100%;"> | <img src="images/fig02-bottomside-with-refno-org.png" style="width: 100%;"> |
-
-![pattern](images/fig04-ai-generated-reference.png)
+<figure>
+  <img src="images/fig01-topside-with-refno.png" alt="Top-side view">
+  <figcaption>Figure 1: Top-side photo with reference numbers</figcaption>
+</figure>
 
 This repository contains the schematic for the AK-280 audio amplifier purchased from Amazon, created by tracing the printed patterns and components. The schematic is created using KiCad.
 
