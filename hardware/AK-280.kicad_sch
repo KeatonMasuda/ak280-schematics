@@ -4036,6 +4036,12 @@
 		(uuid "8eabb3f7-5261-4d35-87b5-61972c444277")
 	)
 	(junction
+		(at 77.47 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8efcd856-1f98-40f8-b324-a2d438b870c2")
+	)
+	(junction
 		(at 107.95 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4088,6 +4094,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac584d3c-6bb6-46e0-8238-dcc5454db756")
+	)
+	(junction
+		(at 96.52 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af650157-f16d-4bf3-9e2e-7532a23adb3f")
 	)
 	(junction
 		(at 241.3 72.39)
@@ -4599,6 +4611,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 153.67) (xy 77.47 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a814791-6c6e-46ed-bc09-9c740f814c40")
+	)
+	(wire
+		(pts
 			(xy 241.3 20.32) (xy 243.84 20.32)
 		)
 		(stroke
@@ -4746,6 +4768,16 @@
 			(type default)
 		)
 		(uuid "3b5edb80-5312-4b51-b186-182f7488c2a0")
+	)
+	(wire
+		(pts
+			(xy 77.47 148.59) (xy 77.47 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ba54a4b-a5f3-49de-bc80-ef2a64c53c72")
 	)
 	(wire
 		(pts
@@ -5296,6 +5328,16 @@
 			(type default)
 		)
 		(uuid "7fa102d9-80c0-403e-8584-51709ab70811")
+	)
+	(wire
+		(pts
+			(xy 77.47 156.21) (xy 96.52 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8114df8c-be44-413c-9098-9b47871ec65c")
 	)
 	(wire
 		(pts
@@ -6542,6 +6584,28 @@
 				)
 			)
 		)
+		(property "Voltage" ""
+			(at 72.39 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" "1/4W"
+			(at 72.39 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f3985705-8a7d-441a-a3e8-7f3251c90f21")
 		)
@@ -6624,6 +6688,28 @@
 				)
 			)
 		)
+		(property "Voltage" ""
+			(at 24.13 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" ""
+			(at 24.13 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "274de09c-5b9f-4f3b-befe-aacbcd9dd13c")
 		)
@@ -6661,7 +6747,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10kΩ"
+		(property "Value" "10k"
 			(at 196.85 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6695,6 +6781,28 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 194.31 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 194.31 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" "1/4W"
 			(at 194.31 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -6787,6 +6895,28 @@
 				)
 			)
 		)
+		(property "Voltage" ""
+			(at 67.31 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" "1/4W"
+			(at 67.31 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e7c77cf5-d3df-4940-8fc9-e29ada29bf63")
 		)
@@ -6857,6 +6987,39 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 162.56 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "Ceramic Capacitor (C0G)"
+			(at 162.56 49.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 162.56 49.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" ""
+			(at 162.56 49.53 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7003,6 +7166,28 @@
 				)
 			)
 		)
+		(property "Voltage" ""
+			(at 54.61 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" ""
+			(at 54.61 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "b309f8cd-166d-4d62-949c-25e8f1977ee0")
 		)
@@ -7119,6 +7304,28 @@
 				)
 			)
 		)
+		(property "Voltage" ""
+			(at 251.46 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" ""
+			(at 251.46 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "acd9dfef-1cda-4f18-ba59-9ce1b65ba9a4")
 		)
@@ -7157,7 +7364,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3300μ/16V"
+		(property "Value" "3300μ"
 			(at 250.19 102.3238 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7191,6 +7398,39 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
+			(at 247.65 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "Aluminum Electrolytic (Standard)"
+			(at 247.65 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 247.65 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" ""
 			(at 247.65 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -7282,6 +7522,28 @@
 				)
 			)
 		)
+		(property "Voltage" ""
+			(at 134.62 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" "1/4W"
+			(at 134.62 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "39758235-0422-44fd-9570-8289a72036ae")
 		)
@@ -7292,6 +7554,121 @@
 			(project "AK-280"
 				(path "/b549f1a2-f054-4478-bbf5-be26277e86e1"
 					(reference "R212")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 77.47 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1fe1ffc1-7328-40f4-aebd-3c6c6c58d5ac")
+		(property "Reference" "C6"
+			(at 80.01 149.3138 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220μ"
+			(at 80.01 151.8538 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 77.47 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "Aluminum Electrolytic (Standard)"
+			(at 77.47 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 77.47 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" ""
+			(at 77.47 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0af55b28-a95e-46ee-9f78-af08c5c06ff2")
+		)
+		(pin "2"
+			(uuid "d26cc98d-1115-45c3-ad49-ec4014c53e98")
+		)
+		(instances
+			(project "AK-280"
+				(path "/b549f1a2-f054-4478-bbf5-be26277e86e1"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -7386,6 +7763,28 @@
 				)
 			)
 		)
+		(property "Voltage" ""
+			(at 246.38 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" ""
+			(at 246.38 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c6f3faa8-ecc1-4ead-93a3-09ed643323e2")
 		)
@@ -7423,7 +7822,7 @@
 				)
 			)
 		)
-		(property "Value" "1μ/50V"
+		(property "Value" "1μ"
 			(at 112.4839 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7457,6 +7856,39 @@
 		)
 		(property "Description" "Polarized capacitor, small symbol"
 			(at 113.03 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "Aluminum Electrolytic (Low ESR)"
+			(at 113.03 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 113.03 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" ""
+			(at 113.03 107.95 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7536,6 +7968,28 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 100.33 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 100.33 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" "1/4W"
+			(at 100.33 100.33 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7659,7 +8113,7 @@
 				)
 			)
 		)
-		(property "Value" "1μ/50V"
+		(property "Value" "1μ"
 			(at 62.738 61.214 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7693,6 +8147,39 @@
 		)
 		(property "Description" "Polarized capacitor, small symbol"
 			(at 63.5 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "Aluminum Electrolytic (Low ESR)"
+			(at 63.5 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 63.5 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" ""
+			(at 63.5 64.77 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7839,6 +8326,28 @@
 				)
 			)
 		)
+		(property "Voltage" ""
+			(at 54.61 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" ""
+			(at 54.61 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "a175816a-4cb7-4e2b-a349-cf5f02f635a7")
 		)
@@ -7933,6 +8442,28 @@
 				)
 			)
 		)
+		(property "Voltage" ""
+			(at 90.17 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" "1/4W"
+			(at 90.17 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3a2cab3a-bac6-4c17-9584-8b2e5b9d437a")
 		)
@@ -8005,6 +8536,28 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 41.91 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 41.91 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" "1/4W"
 			(at 41.91 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -8096,6 +8649,28 @@
 				)
 			)
 		)
+		(property "Voltage" ""
+			(at 144.78 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" "1/4W"
+			(at 144.78 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bd9849ad-1ab2-493b-8e4f-9d8a6e784661")
 		)
@@ -8134,7 +8709,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Zener9.1V"
+		(property "Value" "Zener"
 			(at 133.35 147.3199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8169,6 +8744,28 @@
 		)
 		(property "Description" "Zener diode"
 			(at 130.81 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "9.1V"
+			(at 130.81 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" ""
+			(at 130.81 146.05 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8249,6 +8846,28 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 134.62 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 134.62 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" "1/4W"
 			(at 134.62 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -8341,6 +8960,28 @@
 				)
 			)
 		)
+		(property "Voltage" ""
+			(at 31.75 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" "1/4W"
+			(at 31.75 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "62ae4a0a-aec7-400e-ba14-55a6c211d21a")
 		)
@@ -8422,6 +9063,28 @@
 				)
 			)
 		)
+		(property "Voltage" ""
+			(at 134.62 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" "1/4W"
+			(at 134.62 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f53b4833-7273-46ae-8baa-7ea81981190d")
 		)
@@ -8458,7 +9121,7 @@
 				)
 			)
 		)
-		(property "Value" "0.33μ/50V"
+		(property "Value" "0.33μ"
 			(at 179.832 105.156 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8492,6 +9155,39 @@
 		)
 		(property "Description" "Polarized capacitor, small symbol"
 			(at 179.07 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "Aluminum Electrolytic (Low ESR)"
+			(at 179.07 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 179.07 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" ""
+			(at 179.07 107.95 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8581,6 +9277,28 @@
 				)
 			)
 		)
+		(property "Voltage" ""
+			(at 71.12 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" "1/4W"
+			(at 71.12 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b6858e67-166d-43e2-8ee6-cdce21372bf7")
 		)
@@ -8660,6 +9378,39 @@
 				)
 			)
 		)
+		(property "Type" "Ceramic Capacitor (C0G)"
+			(at 99.06 49.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 99.06 49.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" ""
+			(at 99.06 49.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "04da5d45-ba5e-4292-a1ff-83b9fe0d7fc2")
 		)
@@ -8698,7 +9449,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10μ/50V"
+		(property "Value" "10μ"
 			(at 74.93 79.4638 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8732,6 +9483,39 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
+			(at 77.47 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "Aluminum Electrolytic (Low ESR)"
+			(at 77.47 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 77.47 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" ""
 			(at 77.47 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -8814,6 +9598,28 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 146.05 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 146.05 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" "1/4W"
+			(at 146.05 120.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8980,6 +9786,39 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" "Korea Electronics"
+			(at 99.06 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 99.06 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" ""
+			(at 99.06 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "41e7e682-db02-4617-9031-8930c3408010")
 		)
@@ -9080,6 +9919,28 @@
 				)
 			)
 		)
+		(property "Voltage" ""
+			(at 96.52 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" "1/4W"
+			(at 96.52 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1065f269-0897-471f-891f-375b322c3c33")
 		)
@@ -9159,6 +10020,28 @@
 				)
 			)
 		)
+		(property "Voltage" ""
+			(at 162.56 54.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" "1/4W"
+			(at 162.56 54.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "009f09be-14fc-4481-90fc-d6b49756d557")
 		)
@@ -9229,6 +10112,39 @@
 			)
 		)
 		(property "Description" "Dual Operational Amplifier, DIP-8/DMP-8/SIP-8/SOP-8/SSOP-8"
+			(at 100.33 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Korea Electronics"
+			(at 100.33 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 100.33 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" ""
 			(at 100.33 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -9329,6 +10245,28 @@
 			)
 		)
 		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 29.21 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 29.21 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" ""
 			(at 29.21 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -9477,6 +10415,28 @@
 				)
 			)
 		)
+		(property "Voltage" ""
+			(at 134.62 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" ""
+			(at 134.62 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "b309f8cd-166d-4d62-949c-25e8f1977ee1")
 		)
@@ -9559,6 +10519,28 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 99.06 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 99.06 54.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" "1/4W"
+			(at 99.06 54.61 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9685,7 +10667,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47μ/25V"
+		(property "Value" "47μ"
 			(at 201.93 101.0538 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9719,6 +10701,39 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
+			(at 199.39 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "Aluminum Electrolytic (Standard)"
+			(at 199.39 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 199.39 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" ""
 			(at 199.39 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -9800,6 +10815,28 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 77.47 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 77.47 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" "1/4W"
 			(at 77.47 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -9892,6 +10929,39 @@
 				)
 			)
 		)
+		(property "Type" "Film Capacitor"
+			(at 134.62 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 134.62 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" ""
+			(at 134.62 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "45354a49-debb-4e8d-8d2f-48de5b2d7a8b")
 		)
@@ -9963,6 +11033,39 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 128.27 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "Film Capacitor"
+			(at 128.27 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 128.27 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" ""
 			(at 128.27 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -10131,6 +11234,28 @@
 				)
 			)
 		)
+		(property "Voltage" ""
+			(at 163.83 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" "1/4W"
+			(at 163.83 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8730ebbb-4139-4c18-8beb-5410b13d42b3")
 		)
@@ -10212,6 +11337,28 @@
 				)
 			)
 		)
+		(property "Voltage" ""
+			(at 124.46 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" "1/4W"
+			(at 124.46 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "25101926-90ce-4c7b-9c08-0257df4e57d8")
 		)
@@ -10283,6 +11430,28 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 45.72 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 45.72 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" "1/4W"
 			(at 45.72 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -10453,6 +11622,28 @@
 				)
 			)
 		)
+		(property "Voltage" ""
+			(at 81.28 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" "1/4W"
+			(at 81.28 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c923213f-61e9-4bec-a7aa-17f28760c1c6")
 		)
@@ -10535,6 +11726,28 @@
 				)
 			)
 		)
+		(property "Voltage" ""
+			(at 241.3 36.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" ""
+			(at 241.3 36.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b2fa0d6c-0282-4b04-8eed-911608f6ac08")
 		)
@@ -10572,7 +11785,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "47μ/25V"
+		(property "Value" "47μ"
 			(at 201.676 109.728 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10606,6 +11819,39 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
+			(at 194.31 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "Aluminum Electrolytic (Standard)"
+			(at 194.31 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 194.31 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" ""
 			(at 194.31 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -10720,6 +11966,28 @@
 				)
 			)
 		)
+		(property "Voltage" ""
+			(at 241.3 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" ""
+			(at 241.3 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8760542f-26bf-4066-a28a-683ca4941905")
 		)
@@ -10804,6 +12072,28 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 67.31 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 67.31 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" ""
+			(at 67.31 44.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11026,6 +12316,28 @@
 				)
 			)
 		)
+		(property "Voltage" ""
+			(at 134.62 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" ""
+			(at 134.62 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "b309f8cd-166d-4d62-949c-25e8f1977ee2")
 		)
@@ -11122,6 +12434,28 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 54.61 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 54.61 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" ""
+			(at 54.61 44.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11369,6 +12703,28 @@
 				)
 			)
 		)
+		(property "Voltage" ""
+			(at 123.19 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" "1/4W"
+			(at 123.19 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "03add810-0cea-4fff-b3e9-d9f654725219")
 		)
@@ -11529,6 +12885,28 @@
 				)
 			)
 		)
+		(property "Voltage" ""
+			(at 124.46 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" "1/4W"
+			(at 124.46 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "751c4760-93b1-4790-9a90-ec4d57acbe3b")
 		)
@@ -11598,6 +12976,39 @@
 			)
 		)
 		(property "Description" "Dual Operational Amplifier, DIP-8/DMP-8/SIP-8/SOP-8/SSOP-8"
+			(at 147.32 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Korea Electronics"
+			(at 147.32 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 147.32 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" ""
 			(at 147.32 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -11708,6 +13119,39 @@
 				)
 			)
 		)
+		(property "Type" "Film Capacitor"
+			(at 134.62 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 134.62 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" ""
+			(at 134.62 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "27da982b-2d2f-4035-b27e-6de3f2003068")
 		)
@@ -11779,6 +13223,28 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 134.62 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 134.62 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" "1/4W"
 			(at 134.62 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -11948,6 +13414,28 @@
 				)
 			)
 		)
+		(property "Voltage" ""
+			(at 123.19 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" "1/4W"
+			(at 123.19 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3d19f15b-d9e3-4a3f-842c-218b0a5c8b2d")
 		)
@@ -12018,6 +13506,39 @@
 			)
 		)
 		(property "Description" "Dual Operational Amplifier, DIP-8/DMP-8/SIP-8/SOP-8/SSOP-8"
+			(at 162.56 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Korea Electronics"
+			(at 162.56 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 162.56 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" ""
 			(at 162.56 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -12205,6 +13726,39 @@
 				)
 			)
 		)
+		(property "Type" "Film Capacitor"
+			(at 128.27 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 128.27 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" ""
+			(at 128.27 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "584f5870-dcb4-4ee9-9861-1b7f0447a656")
 		)
@@ -12286,6 +13840,28 @@
 				)
 			)
 		)
+		(property "Voltage" ""
+			(at 243.84 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" ""
+			(at 243.84 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3040591a-d92e-4270-8d75-9df694de9dac")
 		)
@@ -12323,7 +13899,7 @@
 				)
 			)
 		)
-		(property "Value" "1μ/50V"
+		(property "Value" "1μ"
 			(at 112.4839 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12357,6 +13933,39 @@
 		)
 		(property "Description" "Polarized capacitor, small symbol"
 			(at 113.03 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "Aluminum Electrolytic (Low ESR)"
+			(at 113.03 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 113.03 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" ""
+			(at 113.03 62.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12403,7 +14012,7 @@
 				)
 			)
 		)
-		(property "Value" "220 1/2W"
+		(property "Value" "220"
 			(at 163.83 134.62 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12437,6 +14046,28 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 163.83 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 163.83 137.16 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" "1/2W"
+			(at 163.83 137.16 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12605,6 +14236,39 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" "Korea Electronics"
+			(at 109.22 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 109.22 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" ""
+			(at 109.22 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "0df07e59-88f1-4f57-818b-588fe98281a4")
 		)
@@ -12705,6 +14369,28 @@
 				)
 			)
 		)
+		(property "Voltage" ""
+			(at 90.17 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" "1/4W"
+			(at 90.17 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "385a969c-7c56-4563-aaf1-a6293104f7c1")
 		)
@@ -12777,6 +14463,39 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 120.65 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "Ceramic Capacitor (X7R)"
+			(at 120.65 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 120.65 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" ""
 			(at 120.65 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -12866,6 +14585,39 @@
 				)
 			)
 		)
+		(property "Type" "Ceramic Capacitor (C0G)"
+			(at 163.83 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 163.83 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" ""
+			(at 163.83 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0deb0a04-244a-47b2-acba-5730666ac7e6")
 		)
@@ -12902,7 +14654,7 @@
 				)
 			)
 		)
-		(property "Value" "0.33μ/50V"
+		(property "Value" "0.33μ"
 			(at 180.34 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12936,6 +14688,39 @@
 		)
 		(property "Description" "Polarized capacitor, small symbol"
 			(at 179.07 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "Aluminum Electrolytic (Low ESR)"
+			(at 179.07 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 179.07 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" ""
+			(at 179.07 62.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12982,7 +14767,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10μ/50V"
+		(property "Value" "10μ"
 			(at 86.106 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13017,6 +14802,39 @@
 		)
 		(property "Description" "Polarized capacitor, small symbol"
 			(at 81.28 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "Aluminum Electrolytic (Low ESR)"
+			(at 81.28 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 81.28 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" ""
+			(at 81.28 124.46 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13107,6 +14925,28 @@
 				)
 			)
 		)
+		(property "Voltage" ""
+			(at 146.05 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" "1/4W"
+			(at 146.05 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a839ddd5-c95f-48a4-9d07-81df9ac4f2bb")
 		)
@@ -13145,7 +14985,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220μ/16V"
+		(property "Value" "220μ"
 			(at 161.29 146.7738 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13179,6 +15019,39 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
+			(at 158.75 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "Aluminum Electrolytic (Standard)"
+			(at 158.75 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 158.75 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" ""
 			(at 158.75 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -13268,6 +15141,39 @@
 				)
 			)
 		)
+		(property "Type" "Ceramic Capacitor (C0G)"
+			(at 100.33 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 100.33 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" ""
+			(at 100.33 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4cb0af6c-980d-489f-af69-c50f229c8dd4")
 		)
@@ -13337,6 +15243,28 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 259.08 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 259.08 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" ""
 			(at 259.08 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -13418,6 +15346,39 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 140.97 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "Film Capacitor"
+			(at 140.97 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 140.97 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" ""
 			(at 140.97 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -13510,6 +15471,28 @@
 				)
 			)
 		)
+		(property "Voltage" ""
+			(at 31.75 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" "1/4W"
+			(at 31.75 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a16a4f86-aeee-462c-950b-5d3780b7de12")
 		)
@@ -13591,6 +15574,28 @@
 				)
 			)
 		)
+		(property "Voltage" ""
+			(at 144.78 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" "1/4W"
+			(at 144.78 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6fdd8df8-2291-4534-970a-1ca2fa4534ec")
 		)
@@ -13661,6 +15666,39 @@
 			)
 		)
 		(property "Description" "Dual Operational Amplifier, DIP-8/DMP-8/SIP-8/SOP-8/SSOP-8"
+			(at 161.29 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Korea Electronics"
+			(at 161.29 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 161.29 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" ""
 			(at 161.29 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -13771,6 +15809,28 @@
 				)
 			)
 		)
+		(property "Voltage" ""
+			(at 241.3 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" ""
+			(at 241.3 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e8cb3c9f-8090-4a30-807d-e6d31af1fdc3")
 		)
@@ -13843,6 +15903,28 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 96.52 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 96.52 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" "1/4W"
 			(at 96.52 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -13934,6 +16016,28 @@
 				)
 			)
 		)
+		(property "Voltage" ""
+			(at 31.75 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" "1/4W"
+			(at 31.75 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4e35b82b-aa44-440a-a092-f43316e600e1")
 		)
@@ -14004,6 +16108,28 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 247.65 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 247.65 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" ""
 			(at 247.65 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -14186,7 +16312,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MANUFACTURER" "MCM Electronics"
+		(property "MANUFACTURER" "Wuxi Youda Electronics"
 			(at 222.25 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -14196,6 +16322,28 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+			)
+		)
+		(property "Voltage" ""
+			(at 222.25 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" ""
+			(at 222.25 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "4"
@@ -14319,6 +16467,28 @@
 				)
 			)
 		)
+		(property "Voltage" ""
+			(at 24.13 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" ""
+			(at 24.13 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c88c6d32-4036-4088-83a5-6bf6852e8e47")
 		)
@@ -14355,7 +16525,7 @@
 				)
 			)
 		)
-		(property "Value" "1μ/50V"
+		(property "Value" "1μ"
 			(at 64.008 106.934 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14389,6 +16559,39 @@
 		)
 		(property "Description" "Polarized capacitor, small symbol"
 			(at 64.77 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "Aluminum Electrolytic (Low ESR)"
+			(at 64.77 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 64.77 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" ""
+			(at 64.77 110.49 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14532,6 +16735,28 @@
 				)
 			)
 		)
+		(property "Voltage" ""
+			(at 134.62 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" ""
+			(at 134.62 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "b309f8cd-166d-4d62-949c-25e8f1977ee3")
 		)
@@ -14615,6 +16840,39 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 140.97 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "Film Capacitor"
+			(at 140.97 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 140.97 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" ""
 			(at 140.97 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -14784,6 +17042,28 @@
 				)
 			)
 		)
+		(property "Voltage" ""
+			(at 31.75 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" "1/4W"
+			(at 31.75 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ccae900e-7049-4851-85e5-54b98c9edb11")
 		)
@@ -14909,6 +17189,28 @@
 		)
 		(property "Sim.Params" "Rtot=1 wpos=0.4"
 			(at 134.62 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 134.62 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Wattage" ""
+			(at 134.62 90.17 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
